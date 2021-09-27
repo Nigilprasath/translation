@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Translator application</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <h1>Fun Translator</h1>
+        <div class="trans-container">
+        <select name="" id="languages">
+            <option value="yoda">Yoda</option>
+            <option value="groot">Groot</option>
+            <option value="minion">minion</option>
+        </select>
+        </div>
+        <main>
+            <textarea
+                 name="input"
+                 id="input"
+                 placeholder="enter text to translate"
+                 class="input"
+            ></textarea>
+
+            <button id="btn-translate" 
+            class="btn-translate">Translate</button>
+            <h2>Your translation is below</h2>
+            <div class="output" id="output"></div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
